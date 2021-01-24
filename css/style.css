@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(245, 240, 219);
+}
+h2{
+    font-size: 3em;
+    font-family: 'Architects Daughter', cursive;
+    border-bottom: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid pink;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#input {
+    margin-left : 650px;
+    margin-bottom: 10px;
+}
+
+#userinput {
+    height : 30px;
+}
+#button{
+    background-color : rgb(56, 49, 49);
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 35px;
+}
+img{
+    width: 450px;
+    height:300px;
+    margin : 5px;
+    transition : all 1s;
+    box-shadow: 0 10px 6px -6px whitesmoke;
+}
+
+img:hover{
+    transform: scale(
+        1.1
+    );
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
